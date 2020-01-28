@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-buttons">
+        <a class="login-signup" href="login.html">Switch to Login</a><br>
+      </div>
+      <form class="" action="form1.php" method="post">
+        <label class="head_label">Full Name & Address</label>
+        <div class="name_add">
+          <label class="inner_label">Full Name:</label><br>
+          <input type="text" name="firstName" placeholder="John">
+          <input type="text" name="lastName" placeholder="Appleseed">
+          <br>
+          <label class="inner_label">Address:</label><br>
+          <input class="add" type="text" name="address" placeholder="Address Line 1"><br>
+        </div>
+        <label class="head_label">Create Credentials</label>
+        <div class="login-credentials">
+          <label class="inner_label">Username</label><br>
+          <input class="" type="text" name="Username" placeholder="Username"><br>
+          <label class="inner_label">Password</label><br>
+          <input class="" type="text" name="Password" placeholder="Password"><br>
+          <label class="inner_label">Confirm Password</label><br>
+          <input class="" type="text" name="Confirm Password" placeholder="Confirm_Password"><br>
+        </div>
+        <label class="head_label">E-mail & Phone Number</label>
+        <div class="email">
+          <label class="inner_label">E-mail</label><br>
+          <input class="email_no"type="email" name="email" placeholder="xyz@abc.com"><br>
+          <label class="inner_label">Phone Number</label><br>
+          <input class="email_no" type="text" name="contact" placeholder="9876543210">
+        </div>
+        <br>
+        <input id="done" type="submit" name="submit">
+      </form>
+    </div>
+  </body>
+</html>

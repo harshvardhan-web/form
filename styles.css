@@ -1,0 +1,63 @@
+#done:hover {
+  opacity: 60%;
+}
+#done{
+  background-color: #3cb371;
+  width: 96%;
+  height: 2rem;
+  border-radius: 5%;
+  color: white;
+  margin: 2%;
+  margin-top: 0;
+}
+/* input:focus{
+  border-width: 2px;
+  border-color: black;
+} */
+.add{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 275px;
+}
+.head_label{
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  color: #ff8080;
+  padding: 15px;
+}
+.name_add, .email, .login-credentials{
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5%;
+}
+.email_no{
+  width: 275px;
+}
+label{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.inner_label{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+.container{
+  /* position: absolute; */
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #b0e0e6;
+  border: 4px;
+  border-color: black;
+  border-radius: 4%;
+}
+h1{
+  align-content: center;
+}
+.login-buttons{
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+}
