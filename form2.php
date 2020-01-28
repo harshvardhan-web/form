@@ -34,7 +34,7 @@
       //}
     }elseif (mysqli_num_rows($result_user)==0) {
       echo "Username doesn't exist<br>Please Signup<br>";
-      echo '<a href="form.html">Proceed to Signup</a>';
+      echo '<a href="index.html">Proceed to Signup</a>';
     }
 
     ?>
