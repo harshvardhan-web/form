@@ -1,5 +1,6 @@
 #done:hover {
   opacity: 60%;
+  -webkit-opacity: 60%;
 }
 #done{
   background-color: #3cb371;
